@@ -20,12 +20,12 @@ Mice perform a **visual-auditory context-switching task** in which the rewarded 
 
 ### Stimuli and Reward Contingencies
 
-Each trial presents one of four stimuli: a visual target (VIS+), a visual non-target (VIS−), an auditory target (AUD+), or an auditory non-target (AUD−). Trials are organized into alternating **auditory-rewarded (A)** and **visual-rewarded (V)** blocks. Within each block, only one target stimulus is rewarded (Figure below, panel **a**):
+Each trial presents one of four stimuli: a visual target (VIS1), a visual non-target (VIS2), an auditory target (AUD1), or an auditory non-target (AUD2). Trials are organized into alternating **auditory-rewarded (A)** and **visual-rewarded (V)** blocks. Within each block, only one target stimulus is rewarded (Figure below, panel **a**):
 
-- **Auditory context (A):** licking in response to AUD+ earns a water reward; licking to VIS+ is a false alarm.
-- **Visual context (V):** licking in response to VIS+ earns a water reward; licking to AUD+ a false alarm.
+- **Auditory context (A):** licking in response to AUD1 earns a water reward; licking to VIS1 is a false alarm.
+- **Visual context (V):** licking in response to VIS1 earns a water reward; licking to AUD1 a false alarm.
 
-Responses to either non-target stimulus (AUD−, VIS−) are never rewarded regardless of context.
+Responses to either non-target stimulus (AUD2, VIS2) are never rewarded regardless of context.
 
 ### Session and Block Structure
 
@@ -85,8 +85,8 @@ Each recording session follows a standardized sequence of epochs:
 
 The session is divided into **6 blocks** (indices 0–5), alternating between two rewarded-modality contexts:
 
-- **Visual context** (`rewarded_modality = "vis"`): The mouse must lick to visual targets (`vis+` → go) and withhold licking to all other stimuli (including auditory targets `aud+` → no-go).
-- **Auditory context** (`rewarded_modality = "aud"`): The mouse must lick to auditory targets (`aud+` → go) and withhold licking to all other stimuli (including visual targets `vis+` → no-go).
+- **Visual context** (`rewarded_modality = "vis"`): The mouse must lick to visual targets (`vis1` → go) and withhold licking to all other stimuli (including auditory targets `aud+` → no-go).
+- **Auditory context** (`rewarded_modality = "aud"`): The mouse must lick to auditory targets (`aud1` → go) and withhold licking to all other stimuli (including visual targets `vis+` → no-go).
 
 Some sessions begin with visual blocks first, others with auditory blocks first. Each modality context has 3 blocks per session.
 
