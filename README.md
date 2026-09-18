@@ -151,15 +151,18 @@ The most frequently recorded areas with QC-passing units include:
 # Resources: 
 
 ### Allen Institute / Neural Dynamics Data Portal 
-Browse data visualizations for each session -  
+Browse data visualizations for each session
+
 [https://data.allenneuraldynamics-test.org/swdb/set?dataset=swdb_2026_dynamic_routing](https://data.allenneuraldynamics-test.org/swdb/set?dataset=swdb_2026_dynamic_routing)
 
 ### Summer Workshop on the Dynamic Brain Data Book 
 For further background reading on the project and code tutorials, view the SWDB Data Book 
+
 [Dynamic Routing Overview](https://allenswdb.github.io/physiology/ephys/dynamic-routing/dynamic-routing-background.html) 
 
 ### Allen Mouse Brain Atlas 
 Confused about the structure acronyms? Check out the Brain Atlas to see the full name of each structure and where it is located in the brain. 
+
 [https://atlas.brain-map.org/](https://atlas.brain-map.org/) 
 
 
